@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <!-- Link al file CSS personalizzato -->
+    <link href="../altri_files/styles.css" rel="stylesheet">
+    <!-- Link a Bootstrap 5 CSS tramite CDN ufficiale -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body id="bodyhome">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img  id="logo"src="../altri_files/logo.webp"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="socket.html">Cos'è una socket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iso-osi.html">La pila ISO-OSI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="glossario.html">Glossario</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="text_home">
+            </div>
+            <div class="col">
+                <div class="card" style="width:100%">
+                    <div class="card" style="width:100%">
+                        <h4 class="card-title" id="titolo">LE SOCKET</h4>
+                        <img class="card-img-top"
+                            src="data:image/png;base64,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"
+                            alt="Card image">
+                        <div class="card-body">
+                            <a href="socket.html" class="btn" id="bottoneSpeciale">Vai all'argomento</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card" style="width:100%">
+                    <div class="card" style="width:100%">
+                        <h4 class="card-title" id="titolo">PILA ISO-OSI</h4>
+                        <img class="card-img-top"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8K1ctBweRb1yCtInfDf2zXXV1lo-Pu4czzA&s"
+                            alt="Card image" id="ImmagineCard">
+                        <div class="card-body">
+                            <a href="iso-osi.html" class="btn" id="bottoneSpeciale">Vai all'argomento</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class=" text-center text-lg-start bg-black text-white" id="footerhome">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div ID="testo_footer">
+                    <h5 class="text-uppercase"> FATTO DA:</h5>
+                    <p>
+                        BRYAN EZENNADI 5F
+                    </p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- Script di Bootstrap JS tramite CDN ufficiale -->
+    <script src="../altri_files/functions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

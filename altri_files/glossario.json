@@ -1,0 +1,86 @@
+{
+    "sections": [
+      {
+        "title": "SERVER",
+        "content": [
+          {"type": "text","text": "Un server è un computer o un sistema informatico che fornisce servizi, risorse o dati ad altri computer, chiamati client, attraverso una rete. Il server è progettato per gestire richieste e fornire risposte, come ad esempio l'hosting di siti web, la gestione di database, o l'elaborazione di file. I server possono essere fisici (hardware dedicato) o virtuali (software che emula un server su un altro computer). Esistono diversi tipi di server, come web server (per l'hosting di siti web), file server (per la gestione di file), database server (per la gestione di dati strutturati), e molti altri. La comunicazione tra client e server avviene tramite protocolli di rete standardizzati come HTTP, FTP, o SQL."}
+        ]
+      },
+      {
+        "title": "CLIENT",
+        "content": [
+            {"type": "text","text": "Un client è un dispositivo o un programma che si connette a un server per richiedere servizi o risorse. Può essere un computer, uno smartphone, una tablet o un'applicazione software che invia richieste a un server e riceve risposte. Ad esempio, un browser web è un client che invia richieste a un web server per visualizzare una pagina web, mentre un'app di posta elettronica è un client che si connette a un server per inviare e ricevere email. Il client è generalmente il punto di accesso per l'utente finale, mentre il server fornisce i dati o i servizi richiesti."}
+        ]
+      },
+      {
+        "title": "BROWSER",
+        "content": [
+            {"type": "text","text": "Un browser è un software che permette agli utenti di accedere e navigare su Internet, visualizzando contenuti come pagine web, immagini, video e altri tipi di dati. I browser inviano richieste ai server web per caricare le informazioni e le mostreranno in modo comprensibile per l'utente. I browser più comuni includono Google Chrome, Mozilla Firefox, Microsoft Edge e Safari. Essi supportano anche funzionalità come la gestione dei segnalibri, la navigazione privata, l'installazione di estensioni, e la gestione delle schede per aprire più pagine web contemporaneamente."}
+        ]
+    },
+    {
+      "title": "PILA ISO-OSI",
+      "content": [
+          { "type": "text", "text": "La pila ISO-OSI è un modello a 7 livelli che descrive come i dati vengono trasmessi in una rete. I livelli sono:" }
+          ],
+          "livelli": [
+            "Fisico",
+            "Collegamento dati",
+            "Rete",
+            "Trasporto",
+            "Sessione",
+            "Presentazione",
+            "Applicazione"
+          ],
+      "conclusione": "Ogni livello ha una funzione specifica nella gestione delle comunicazioni di rete."
+  },
+  {
+    "title": "SOCKET",
+    "content": [
+        { "type": "text", "text": "Un socket è un'interfaccia che permette a due applicazioni di comunicare tra loro, sia sulla stessa macchina che su dispositivi diversi in una rete. È essenziale per il funzionamento di protocolli come TCP e UDP, e rappresenta i punti di accesso per la connessione. I principali aspetti dei socket sono:" },
+        { "type": "text", "text": "Connessione TCP: Stabilisce una connessione sicura tra client e server, garantendo che i dati arrivino nell'ordine corretto."},
+        { "type": "text", "text": "Connessione UDP: Permette l'invio di pacchetti senza connessione, rendendolo più rapido ma meno affidabile." },
+        { "type": "text", "text": "Comunicazione Client-Server: Utilizzato per il dialogo tra client (es. browser) e server (es. web server)." },
+        { "type": "text", "text": "Ogni socket è identificato da una coppia unica di indirizzo IP e numero di porta, che indica il dispositivo e il servizio con cui stabilisce la comunicazione."  }
+
+        ]
+},
+{
+    "title": "TCP",
+    "content": [
+        { "type": "text", "text": "Il TCP (Transmission Control Protocol) è un protocollo di comunicazione utilizzato per garantire una trasmissione affidabile dei dati tra due dispositivi su una rete. Assicura che i dati vengano inviati e ricevuti nell'ordine corretto, gestendo eventuali errori e ritrasmettendo i pacchetti persi. TCP è alla base di molte applicazioni, come la navigazione web e l'invio di email, dove è importante la certezza che i dati arrivino in modo completo e preciso" }
+        ]
+},
+{
+    "title": "UDP",
+    "content": [
+        { "type": "text", "text": "L'UDP (User Datagram Protocol) è un protocollo di comunicazione utilizzato per inviare dati su una rete senza garantire l'affidabilità o l'ordine di consegna. A differenza di TCP, UDP è più veloce perché non stabilisce una connessione prima di inviare i dati e non si occupa di verificare se i pacchetti arrivano correttamente. È utilizzato in applicazioni dove la velocità è più importante dell'affidabilità, come lo streaming video, il gaming online e le chiamate VoIP." }
+        ]
+},
+{
+    "title": "SSH",
+    "content": [
+        { "type": "text", "text": "SSH (Secure Shell) è un protocollo di rete utilizzato per connettersi in modo sicuro a un computer remoto, permettendo l'accesso alla sua linea di comando. SSH cifra i dati scambiati, proteggendo la comunicazione da intercettazioni e attacchi. Viene comunemente usato per amministrare server remoti, trasferire file in modo sicuro (tramite SCP o SFTP) e per eseguire comandi su macchine distanti, garantendo un livello elevato di sicurezza nelle connessioni remote." }
+        ]
+},
+{
+    "title": "TLS",
+    "content": [
+        { "type": "text", "text": "TLS (Transport Layer Security) è un protocollo di sicurezza che fornisce una connessione crittografata tra due dispositivi su una rete, come un server web e un client. TLS garantisce la riservatezza e l'integrità dei dati scambiati, proteggendo la comunicazione da intercettazioni e manomissioni. Viene utilizzato in applicazioni come la navigazione web (HTTPS), le email e le connessioni VPN, per assicurare che i dati sensibili siano trasmessi in modo sicuro." }
+        ]
+},
+{
+    "title": "HTTP",
+    "content": [
+        { "type": "text", "text": "HTTP (HyperText Transfer Protocol) è il protocollo utilizzato per la trasmissione di dati sul web. Consente la comunicazione tra un client (come un browser) e un server, permettendo il recupero di pagine web, immagini, video e altri contenuti. HTTP è un protocollo stateless, cioè non mantiene alcuna informazione sulle comunicazioni precedenti. Viene spesso utilizzato insieme a HTTPS (la versione sicura), che cifra i dati per garantire la privacy e la sicurezza della comunicazione." }
+        ]
+},
+{
+    "title": "HTTPS",
+    "content": [
+        { "type": "text", "text": "HTTPS (HyperText Transfer Protocol Secure) è una versione sicura di HTTP, che utilizza il protocollo TLS (Transport Layer Security) per crittografare i dati scambiati tra il client (come un browser) e il server. HTTPS garantisce la riservatezza e l'integrità delle informazioni trasmesse, proteggendo la comunicazione da intercettazioni, attacchi man-in-the-middle e manipolazioni dei dati. È utilizzato principalmente per siti web che trattano informazioni sensibili, come pagamenti online, login e transazioni bancarie." }
+        ]
+}
+    ]
+  }
+  

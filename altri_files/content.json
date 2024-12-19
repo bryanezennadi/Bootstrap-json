@@ -1,0 +1,21 @@
+{
+    "titolo": "Cosa potrai imparare in questo sito?",
+    "contenuto": [
+      {
+        "href": "socket.html",
+        "titolo": "Cos'è una socket:",
+        "descrizione": "scopri cosa sono e come vengono utilizzate nella comunicazione di rete."
+      },
+      {
+        "href": "iso-osi.html",
+        "titolo": "Indications generali sulla pila ISO-OSI:",
+        "descrizione": "una panoramica su uno dei modelli più importanti per comprendere il funzionamento delle reti."
+      },
+      {
+        "href": "transportLayer.html",
+        "titolo": "Approfondimenti sul Transport Layer:",
+        "descrizione": "esplora come il livello di trasporto gestisce la comunicazione tra dispositivi."
+      }
+    ]
+  }
+  
